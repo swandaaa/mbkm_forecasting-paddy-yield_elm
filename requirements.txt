@@ -83,5 +83,3 @@ xgboost==2.0.2
 xyzservices==2023.10.1
 zipp==3.17.0
 librosa==0.10.1
-pip==23.2.1
-setuptools==67.0.0
