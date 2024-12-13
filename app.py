@@ -7,7 +7,7 @@ from sklearn.neighbors import LocalOutlierFactor
 import matplotlib.ticker as ticker
 
 # Tema aplikasi
-st.set_page_config(page_title="Peramalan Hasil Panen Padi dengan Metode Forecasting Extreme Learning Machine (ELM)", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Peramalan Produksi Padi Menggunakan Extreme Learning Machine (ELM) Dengan Deteksi Outlier", layout="wide", initial_sidebar_state="expanded")
 
 # Fungsi untuk memuat dataset
 def load_data(uploaded_file=None):
@@ -45,7 +45,7 @@ def plot_data(y, title='Produksi Padi', color='blue'):
     st.pyplot(plt)
 
 # Judul aplikasi
-st.title('🌾 Peramalan Hasil Panen Padi dengan Metode Forecasting Extreme Learning Machine (ELM) 🌾')
+st.title('🌾 Peramalan Produksi Padi Menggunakan Extreme Learning Machine (ELM) Dengan Deteksi Outlier 🌾')
 
 # Upload file
 uploaded_file = st.file_uploader("📤 Upload file CSV (opsional)", type=["csv"])
